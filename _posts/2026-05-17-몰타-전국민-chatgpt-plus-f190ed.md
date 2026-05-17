@@ -1,23 +1,18 @@
 ---
-layout: post
-title: 몰타, 전국민 ChatGPT Plus
-date: '2026-05-17T21:28:58+09:00'
 category: industry
 category_ko: industry
-tags:
-- industry
+date: '2026-05-17T21:28:58+09:00'
+layout: post
+slug: 몰타-전국민-chatgpt-plus-f190ed
+sources:
+- title: OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens
+  url: https://openai.com/index/malta-chatgpt-plus-partnership/
 summary: 몰타 정부가 OpenAI와 손잡고 전 국민에게 ChatGPT Plus를 1년간 무료 제공하기로 했다. 이용 조건은 몰타대학교가 자체
   설계한 AI 리터러시 과정 이수로, 벤더가 아닌 공공기관이 교육을 맡았다는 점이 주목받고 있다. 국가 단위의 첫 사례라는 점에서 다른 정부의 AI
   도입 모델로 거론된다.
-slug: 몰타-전국민-chatgpt-plus-f190ed
-sources:
-- url: https://openai.com/index/malta-chatgpt-plus-partnership/
-  title: OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens
-- url: https://i.redd.it/5mctrea2nl1h1.png
-  title: '"Malta just became the first country to offer ChatGPT Plus to every citizen
-    - free for a year. The only requirement: complete an AI literacy course first.
-    The course was built by the University of Malta, not by OpenAI. So it''s not a
-    vendor training citizens to use vendor"'
+tags:
+- industry
+title: 몰타, 전국민 ChatGPT Plus
 ---
 
 ![sailing boat lot]({{ site.baseurl }}/assets/img/2026/05/몰타-전국민-chatgpt-plus-f190ed.jpg)
@@ -66,4 +61,3 @@ graph LR
 **참고**
 
 - [OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership/)
-- ["Malta just became the first country to offer ChatGPT Plus to every citizen - free for a year. The only requirement: complete an AI literacy course first. The course was built by the University of Malta, not by OpenAI. So it's not a vendor training citizens to use vendor"](https://i.redd.it/5mctrea2nl1h1.png)
