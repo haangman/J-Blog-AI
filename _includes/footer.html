@@ -1,0 +1,36 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    {%- if site.title -%}
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    {%- endif -%}
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        {%- if site.description -%}
+          <p class="site-description">{{ site.description | escape }}</p>
+        {%- endif -%}
+        {%- if site.author -%}
+          <p style="margin-top: 0.5em; color: #828282;">by {{ site.author }}</p>
+        {%- endif -%}
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p class="feed-subscribe">
+          <a href="{{ "/feed.xml" | relative_url }}">RSS feed</a>
+        </p>
+      </div>
+
+      <div class="footer-col footer-col-3" style="text-align: right;">
+        <p style="color: #828282; font-size: 0.9em; line-height: 1.7;">
+          <span title="누적 순방문자">방문자 <span id="busuanzi_value_site_uv">…</span></span><br>
+          <span title="누적 조회수">조회수 <span id="busuanzi_value_site_pv">…</span></span><br>
+          <span title="이 페이지 조회수">이 글 <span id="busuanzi_value_page_pv">…</span></span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</footer>

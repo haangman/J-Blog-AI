@@ -1,0 +1,33 @@
+# Site
+title: "AI tech notes"
+description: "AI 기술과 개발 — 트렌드부터 꼭 알아야 할 기초·심화까지"
+author: haangman
+lang: ko-KR
+timezone: Asia/Seoul
+
+# URL
+url: "https://haangman.github.io"
+baseurl: "/J-Blog-AI"
+
+# Build
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:day/:slug/
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - vendor/
