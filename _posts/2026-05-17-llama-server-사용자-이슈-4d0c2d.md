@@ -1,11 +1,14 @@
 ---
-category: inference
+categories:
+- inference
 category_ko: inference
 date: '2026-05-17T21:34:03+09:00'
 description: llama-server 사용자들이 커스텀 샘플러 확장 아이디어, Nemotron 3 nano Omni의 오디오 입력 미지원
   문제, Qwen 35B A3B의 사고(thinking) 길이 제어 방식 등 다양한 운영 이슈를 reddit r/LocalLLaMA에 공유했다.
   로컬 LLM 추론 서버로 자리잡은 llama-server를 둘러싼 기능 요구와 한계가 동시에
-image: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d.jpg
+image:
+  alt: llama-server 사용자 이슈
+  path: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d.jpg
 layout: post
 slug: llama-server-사용자-이슈-4d0c2d
 sources:

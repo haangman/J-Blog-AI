@@ -1,11 +1,14 @@
 ---
-category: industry
+categories:
+- industry
 category_ko: industry
 date: '2026-05-17T21:28:58+09:00'
 description: 몰타 정부가 OpenAI와 손잡고 전 국민에게 ChatGPT Plus를 1년간 무료 제공하기로 했다. 이용 조건은 몰타대학교가
   자체 설계한 AI 리터러시 과정 이수로, 벤더가 아닌 공공기관이 교육을 맡았다는 점이 주목받고 있다. 국가 단위의 첫 사례라는 점에서 다른 정부의
   AI 도입 모델로 거론된다.
-image: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/몰타-전국민-chatgpt-plus-f190ed.jpg
+image:
+  alt: 몰타, 전국민 ChatGPT Plus
+  path: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/몰타-전국민-chatgpt-plus-f190ed.jpg
 layout: post
 slug: 몰타-전국민-chatgpt-plus-f190ed
 sources:

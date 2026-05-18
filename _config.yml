@@ -1,55 +1,144 @@
-# Site
-title: "AI tech notes"
-description: "AI 기술과 개발 — 트렌드부터 꼭 알아야 할 기초·심화까지"
-author: haangman
+# jekyll-theme-chirpy 기반 _config.yml.
+# V7-B 에서 minima → chirpy 로 전환. 기존 글 URL 유지를 위해 permalink 는 그대로.
+
+theme: jekyll-theme-chirpy
+
+# 언어 — _data/locales/ko.yml 가 있으면 한국어 UI
 lang: ko-KR
 timezone: Asia/Seoul
 
-# URL
+# 사이트 메타 (jekyll-seo-tag)
+title: "AI tech notes"
+tagline: "AI 기술과 개발 — 트렌드부터 꼭 알아야 할 기초·심화까지"
+description: >-
+  AI 개발자·관심자·기술 사용법이 궁금한 사람을 위한 한국어 AI 기술 블로그.
+  최신 트렌드 + 꼭 정리해야 할 핵심 토픽을 자동으로 매일 정리합니다.
+
 url: "https://haangman.github.io"
 baseurl: "/J-Blog-AI"
 
-# Google Search Console verification — GSC 등록 후 사용자가 토큰 채움.
-# <meta name="google-site-verification" content="여기값"> 의 content 값만.
-# jekyll-seo-tag 가 이 필드를 자동으로 meta 태그로 출력.
-#<meta name="google-site-verification" content="z9a9RSK9CLJnq-mDNm8beC5UemOO2czYXSdvQpHql4U" />
-google_site_verification: "z9a9RSK9CLJnq-mDNm8beC5UemOO2czYXSdvQpHql4U"
+github:
+  username: haangman
 
-# Giscus 댓글 — https://giscus.app 에서 설정 후 repo_id / category_id 채움.
-# 사전 작업: 리포 Settings → Features → Discussions 활성 + giscus app 설치.
-giscus:
+social:
+  name: haangman
+  email: haangman@gmail.com
+  links:
+    - https://github.com/haangman
+
+# GSC verification (jekyll-seo-tag 가 자동 출력)
+webmaster_verifications:
+  google: "z9a9RSK9CLJnq-mDNm8beC5UemOO2czYXSdvQpHql4U"
+
+# 다크모드 — 비워두면 시스템 따라감 + 사이드바 좌하단 토글
+theme_mode:
+
+cdn:
+avatar:
+social_preview_image:
+
+# 글마다 우측 TOC 자동 (toc: true 가 default 에도 들어감)
+toc: true
+
+# Giscus 댓글 (V6) — chirpy 내장 시스템 사용
+comments:
+  provider: giscus
+  giscus:
+    repo: "haangman/J-Blog-AI"
+    repo_id: "R_kgDOSf7Kvw"
+    category: "Announcements"
+    category_id: "DIC_kwDOSf7Kv84C9T1Y"
+    mapping: pathname
+    strict: "0"
+    input_position: bottom
+    lang: ko
+    reactions_enabled: "1"
+
+# Page views — 우리는 busuanzi 별도 — chirpy 의 pageviews 는 비활성
+pageviews:
+  provider:
+
+# Web Analytics 비활성
+analytics:
+  google:
+    id:
+
+assets:
+  self_host:
+    enabled:
+
+pwa:
   enabled: true
-  repo: "haangman/J-Blog-AI"
-  repo_id: "R_kgDOSf7Kvw"
-  category: "Announcements"
-  category_id: "DIC_kwDOSf7Kv84C9T1Y"
-  mapping: "pathname"
-  strict: "0"
-  reactions_enabled: "1"
-  emit_metadata: "0"
-  input_position: "bottom"
-  theme: "preferred_color_scheme"
-  lang: "ko"
+  cache:
+    enabled: true
 
-# Build
-theme: minima
-markdown: kramdown
-permalink: /:year/:month/:day/:slug/
-
-# Pagination
 paginate: 10
-paginate_path: "/page:num/"
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
+# ----- 아래는 chirpy 기본 그대로 (수정 X) -----
 
-# Exclude from build
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+# 기존 글 URL (`/:year/:month/:day/:slug/`) 유지를 위해 chirpy 의 `/posts/:title/` 를 오버라이드
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /:year/:month/:day/:slug/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
 exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - tools
   - README.md
-  - Gemfile
-  - Gemfile.lock
-  - .gitignore
-  - vendor/
+  - LICENSE
+  - "*.config.js"
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
