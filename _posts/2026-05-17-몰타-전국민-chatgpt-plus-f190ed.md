@@ -10,6 +10,7 @@ image:
   alt: 몰타, 전국민 ChatGPT Plus
   path: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/몰타-전국민-chatgpt-plus-f190ed.jpg
 layout: post
+mermaid: true
 slug: 몰타-전국민-chatgpt-plus-f190ed
 sources:
 - title: OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens
@@ -21,9 +22,6 @@ tags:
 - industry
 title: 몰타, 전국민 ChatGPT Plus
 ---
-
-![sailing boat lot]({{ site.baseurl }}/assets/img/2026/05/몰타-전국민-chatgpt-plus-f190ed.jpg)
-*[Photo by Mike Nahlii on Unsplash](https://unsplash.com/@pixelcore?utm_source=blogmaker&utm_medium=referral)*
 
 몰타가 전 국민한테 ChatGPT Plus 를 1년 무료로 깔아준다는 뉴스를 봤다. 처음에는 작은 나라 PR 인가 싶었는데, 한 번 더 읽으니 좀 다른 그림이었다.
 

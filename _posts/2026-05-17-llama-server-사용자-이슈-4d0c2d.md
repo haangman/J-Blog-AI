@@ -10,6 +10,7 @@ image:
   alt: llama-server 사용자 이슈
   path: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d.jpg
 layout: post
+mermaid: true
 slug: llama-server-사용자-이슈-4d0c2d
 sources:
 - title: 'Extension idea: llama-server with custom samplers'
@@ -26,9 +27,6 @@ tags:
 - inference
 title: llama-server 사용자 이슈
 ---
-
-![a rack of electronic equipment in a dark room]({{ site.baseurl }}/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d.jpg)
-*[Photo by Tyler on Unsplash](https://unsplash.com/@tylergm?utm_source=blogmaker&utm_medium=referral)*
 
 요 며칠 r/LocalLLaMA 를 훑다가 llama-server — 로컬에서 LLM 을 띄울 때 사실상 표준 비슷하게 굳어진 그 추론 서버 — 관련 글 세 개가 같은 결을 가지고 올라온 게 눈에 띄었어. 셋 다 따로 보면 다른 얘긴데, 묶어 보니 결국 한 가지로 모이더라고. "기능은 빠르게 늘어나는데, 그 안쪽을 어떻게 손대야 할지에 대한 합의는 아직 없다" 는 점.
 
