@@ -20,9 +20,9 @@ google_site_verification: "z9a9RSK9CLJnq-mDNm8beC5UemOO2czYXSdvQpHql4U"
 giscus:
   enabled: false                   # 토큰 채운 후 true 로 바꿈
   repo: "haangman/J-Blog-AI"
-  repo_id: ""                      # giscus.app 의 data-repo-id
+  repo_id: "R_kgDOSf7Kvw"                      # giscus.app 의 data-repo-id
   category: "Announcements"
-  category_id: ""                  # giscus.app 의 data-category-id
+  category_id: "DIC_kwDOSf7Kv84C9T1Y"                  # giscus.app 의 data-category-id
   mapping: "pathname"
   strict: "0"
   reactions_enabled: "1"
