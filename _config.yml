@@ -15,6 +15,22 @@ baseurl: "/J-Blog-AI"
 #<meta name="google-site-verification" content="z9a9RSK9CLJnq-mDNm8beC5UemOO2czYXSdvQpHql4U" />
 google_site_verification: "z9a9RSK9CLJnq-mDNm8beC5UemOO2czYXSdvQpHql4U"
 
+# Giscus 댓글 — https://giscus.app 에서 설정 후 repo_id / category_id 채움.
+# 사전 작업: 리포 Settings → Features → Discussions 활성 + giscus app 설치.
+giscus:
+  enabled: false                   # 토큰 채운 후 true 로 바꿈
+  repo: "haangman/J-Blog-AI"
+  repo_id: ""                      # giscus.app 의 data-repo-id
+  category: "Announcements"
+  category_id: ""                  # giscus.app 의 data-category-id
+  mapping: "pathname"
+  strict: "0"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "bottom"
+  theme: "preferred_color_scheme"
+  lang: "ko"
+
 # Build
 theme: minima
 markdown: kramdown

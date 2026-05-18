@@ -1,0 +1,21 @@
+{%- if site.giscus.enabled and page.layout == "post" -%}
+<section class="comments" style="margin-top: 3em; padding-top: 1.5em; border-top: 1px solid #e8e8e8;">
+  <h2 style="font-size: 1.1em; color: #424242; margin-bottom: 1em;">댓글</h2>
+  <script src="https://giscus.app/client.js"
+          data-repo="{{ site.giscus.repo }}"
+          data-repo-id="{{ site.giscus.repo_id }}"
+          data-category="{{ site.giscus.category }}"
+          data-category-id="{{ site.giscus.category_id }}"
+          data-mapping="{{ site.giscus.mapping }}"
+          data-strict="{{ site.giscus.strict }}"
+          data-reactions-enabled="{{ site.giscus.reactions_enabled }}"
+          data-emit-metadata="{{ site.giscus.emit_metadata }}"
+          data-input-position="{{ site.giscus.input_position }}"
+          data-theme="{{ site.giscus.theme }}"
+          data-lang="{{ site.giscus.lang }}"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+  </script>
+</section>
+{%- endif -%}
