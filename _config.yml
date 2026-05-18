@@ -18,11 +18,11 @@ google_site_verification: "z9a9RSK9CLJnq-mDNm8beC5UemOO2czYXSdvQpHql4U"
 # Giscus 댓글 — https://giscus.app 에서 설정 후 repo_id / category_id 채움.
 # 사전 작업: 리포 Settings → Features → Discussions 활성 + giscus app 설치.
 giscus:
-  enabled: false                   # 토큰 채운 후 true 로 바꿈
+  enabled: true
   repo: "haangman/J-Blog-AI"
-  repo_id: "R_kgDOSf7Kvw"                      # giscus.app 의 data-repo-id
+  repo_id: "R_kgDOSf7Kvw"
   category: "Announcements"
-  category_id: "DIC_kwDOSf7Kv84C9T1Y"                  # giscus.app 의 data-category-id
+  category_id: "DIC_kwDOSf7Kv84C9T1Y"
   mapping: "pathname"
   strict: "0"
   reactions_enabled: "1"
