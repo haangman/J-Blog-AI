@@ -31,7 +31,7 @@ title: 몰타, 전국민 ChatGPT Plus
 
 
 
-![white and black yacht at dock]({{ site.baseurl }}/assets/img/2026/05/몰타-전국민-chatgpt-plus-f190ed-1.jpg)
+![white and black yacht at dock](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/몰타-전국민-chatgpt-plus-f190ed-1.jpg)
 *[Photo by Matheus Frade on Unsplash](https://unsplash.com/@matheusfrade?utm_source=blogmaker&utm_medium=referral)*
 
 
@@ -50,7 +50,7 @@ graph LR
 
 
 
-![Teacher sitting at a desk with chalkboard formulas]({{ site.baseurl }}/assets/img/2026/05/몰타-전국민-chatgpt-plus-f190ed-2.jpg)
+![Teacher sitting at a desk with chalkboard formulas](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/몰타-전국민-chatgpt-plus-f190ed-2.jpg)
 *[Photo by Vitaly Gariev on Unsplash](https://unsplash.com/@silverkblack?utm_source=blogmaker&utm_medium=referral)*
 
 

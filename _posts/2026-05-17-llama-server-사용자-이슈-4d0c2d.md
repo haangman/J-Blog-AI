@@ -34,7 +34,7 @@ title: llama-server 사용자 이슈
 
 
 
-![a laptop sits on a desk]({{ site.baseurl }}/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d-1.jpg)
+![a laptop sits on a desk](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d-1.jpg)
 *[Photo by Faraaz Zuberi on Unsplash](https://unsplash.com/@ffz_20?utm_source=blogmaker&utm_medium=referral)*
 
 
@@ -43,7 +43,7 @@ title: llama-server 사용자 이슈
 
 
 
-![black flat screen computer monitor]({{ site.baseurl }}/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d-2.jpg)
+![black flat screen computer monitor](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d-2.jpg)
 *[Photo by Aidan Tottori on Unsplash](https://unsplash.com/@atoto_photo?utm_source=blogmaker&utm_medium=referral)*
 
 
