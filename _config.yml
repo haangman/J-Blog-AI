@@ -12,7 +12,8 @@ baseurl: "/J-Blog-AI"
 # Google Search Console verification — GSC 등록 후 사용자가 토큰 채움.
 # <meta name="google-site-verification" content="여기값"> 의 content 값만.
 # jekyll-seo-tag 가 이 필드를 자동으로 meta 태그로 출력.
-google_site_verification: ""
+#<meta name="google-site-verification" content="z9a9RSK9CLJnq-mDNm8beC5UemOO2czYXSdvQpHql4U" />
+google_site_verification: "z9a9RSK9CLJnq-mDNm8beC5UemOO2czYXSdvQpHql4U"
 
 # Build
 theme: minima
