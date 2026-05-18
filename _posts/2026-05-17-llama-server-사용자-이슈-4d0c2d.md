@@ -1,23 +1,27 @@
 ---
-layout: post
-title: llama-server 사용자 이슈
-date: '2026-05-17T21:34:03+09:00'
 category: inference
 category_ko: inference
-tags:
-- inference
+date: '2026-05-17T21:34:03+09:00'
+description: llama-server 사용자들이 커스텀 샘플러 확장 아이디어, Nemotron 3 nano Omni의 오디오 입력 미지원
+  문제, Qwen 35B A3B의 사고(thinking) 길이 제어 방식 등 다양한 운영 이슈를 reddit r/LocalLLaMA에 공유했다.
+  로컬 LLM 추론 서버로 자리잡은 llama-server를 둘러싼 기능 요구와 한계가 동시에
+image: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d.jpg
+layout: post
+slug: llama-server-사용자-이슈-4d0c2d
+sources:
+- title: 'Extension idea: llama-server with custom samplers'
+  url: https://www.reddit.com/r/LocalLLaMA/comments/1tewitj/extension_idea_llamaserver_with_custom_samplers/
+- title: Audio input not accepted with llamacpp for Nemotron 3 nano Omni ?
+  url: https://www.reddit.com/r/LocalLLaMA/comments/1tetf8d/audio_input_not_accepted_with_llamacpp_for/
+- title: How does Pi coding agent control Qwen's thinking verbosity? (Qwen 35B A3B,
+    llama-server)
+  url: https://www.reddit.com/r/LocalLLaMA/comments/1tfh1wf/how_does_pi_coding_agent_control_qwens_thinking/
 summary: llama-server 사용자들이 커스텀 샘플러 확장 아이디어, Nemotron 3 nano Omni의 오디오 입력 미지원 문제,
   Qwen 35B A3B의 사고(thinking) 길이 제어 방식 등 다양한 운영 이슈를 reddit r/LocalLLaMA에 공유했다. 로컬 LLM
   추론 서버로 자리잡은 llama-server를 둘러싼 기능 요구와 한계가 동시에
-slug: llama-server-사용자-이슈-4d0c2d
-sources:
-- url: https://www.reddit.com/r/LocalLLaMA/comments/1tewitj/extension_idea_llamaserver_with_custom_samplers/
-  title: 'Extension idea: llama-server with custom samplers'
-- url: https://www.reddit.com/r/LocalLLaMA/comments/1tetf8d/audio_input_not_accepted_with_llamacpp_for/
-  title: Audio input not accepted with llamacpp for Nemotron 3 nano Omni ?
-- url: https://www.reddit.com/r/LocalLLaMA/comments/1tfh1wf/how_does_pi_coding_agent_control_qwens_thinking/
-  title: How does Pi coding agent control Qwen's thinking verbosity? (Qwen 35B A3B,
-    llama-server)
+tags:
+- inference
+title: llama-server 사용자 이슈
 ---
 
 ![a rack of electronic equipment in a dark room]({{ site.baseurl }}/assets/img/2026/05/llama-server-사용자-이슈-4d0c2d.jpg)
