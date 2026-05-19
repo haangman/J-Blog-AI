@@ -1,21 +1,21 @@
 ---
-layout: post
-title: Temperature와 Top-p 샘플링 차이
-date: '2026-05-19T19:41:54+09:00'
-tags:
-- llm
-summary: AI 카테고리 'llm' 의 intermediate 수준 핵심 토픽 정리. 독자가 처음 접해도 따라올 수 있게 비유·예시·필요 시
-  다이어그램·코드 스니펫 포함.
-description: AI 카테고리 'llm' 의 intermediate 수준 핵심 토픽 정리. 독자가 처음 접해도 따라올 수 있게 비유·예시·필요
-  시 다이어그램·코드 스니펫 포함.
-slug: temperature와-top-p-샘플링-차이-4c7a51
 categories:
 - llm
 category_ko: 대규모 언어 모델
+date: '2026-05-19T19:41:54+09:00'
+description: AI 카테고리 'llm' 의 intermediate 수준 핵심 토픽 정리. 독자가 처음 접해도 따라올 수 있게 비유·예시·필요
+  시 다이어그램·코드 스니펫 포함.
 image:
-  path: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/temperature와-top-p-샘플링-차이-4c7a51.jpg
   alt: Temperature와 Top-p 샘플링 차이
+  path: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/temperature와-top-p-샘플링-차이-4c7a51.jpg
+layout: post
 mermaid: true
+slug: temperature와-top-p-샘플링-차이-4c7a51
+summary: AI 카테고리 'llm' 의 intermediate 수준 핵심 토픽 정리. 독자가 처음 접해도 따라올 수 있게 비유·예시·필요 시
+  다이어그램·코드 스니펫 포함.
+tags:
+- llm
+title: Temperature와 Top-p 샘플링 차이
 ---
 
 LLM API 만지다 보면 `temperature` 랑 `top_p` 슬라이더가 늘 같이 붙어 있다. 둘 다 "출력의 다양성" 을 만지는 손잡이라고 설명되는데, 사실은 작동하는 지점이 서로 다르다. 처음엔 사실상 같은 거 아닌가 싶었는데, 직접 찍어 보니까 꽤 다르더라.
@@ -36,8 +36,8 @@ Top-p (=nucleus sampling) 는 좀 다른 결. 분포 모양은 안 건드리고 
 
 
 
-![developer laptop code editor close up](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/temperature와-top-p-샘플링-차이-4c7a51-1.jpg)
-*[AI generated (Pollinations · Flux)](https://pollinations.ai/)*
+![black and gray laptop showing programming language](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/temperature와-top-p-샘플링-차이-4c7a51-1.jpg)
+*[Photo by Chris Ried on Unsplash](https://unsplash.com/@cdr6934?utm_source=blogmaker&utm_medium=referral)*
 
 
 

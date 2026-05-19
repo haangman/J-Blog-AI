@@ -1,21 +1,21 @@
 ---
-layout: post
-title: GPT Claude Gemini 모델 비교
-date: '2026-05-19T14:22:50+09:00'
-tags:
-- llm
-summary: AI 카테고리 'llm' 의 intro 수준 핵심 토픽 정리. 독자가 처음 접해도 따라올 수 있게 비유·예시·필요 시 다이어그램·코드
-  스니펫 포함.
-description: AI 카테고리 'llm' 의 intro 수준 핵심 토픽 정리. 독자가 처음 접해도 따라올 수 있게 비유·예시·필요 시 다이어그램·코드
-  스니펫 포함.
-slug: gpt-claude-gemini-모델-비교-ae78cc
 categories:
 - llm
 category_ko: 대규모 언어 모델
+date: '2026-05-19T14:22:50+09:00'
+description: AI 카테고리 'llm' 의 intro 수준 핵심 토픽 정리. 독자가 처음 접해도 따라올 수 있게 비유·예시·필요 시 다이어그램·코드
+  스니펫 포함.
 image:
-  path: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/gpt-claude-gemini-모델-비교-ae78cc.jpg
   alt: GPT Claude Gemini 모델 비교
+  path: https://haangman.github.io/J-Blog-AI/assets/img/2026/05/gpt-claude-gemini-모델-비교-ae78cc.jpg
+layout: post
 mermaid: true
+slug: gpt-claude-gemini-모델-비교-ae78cc
+summary: AI 카테고리 'llm' 의 intro 수준 핵심 토픽 정리. 독자가 처음 접해도 따라올 수 있게 비유·예시·필요 시 다이어그램·코드
+  스니펫 포함.
+tags:
+- llm
+title: GPT Claude Gemini 모델 비교
 ---
 
 GPT, Claude, Gemini — 이 세 LLM(대형 언어 모델, 챗봇 뒤에 깔린 그 거대 신경망)을 사람들이 자꾸 묶어서 묻는다. "셋이 뭐가 달라요?", "뭐 써야 돼요?" 사실 나도 회사에서 제품에 LLM 붙이면서 셋을 다 만져봤는데, 한 줄로 답하기가 진짜 어렵다. 그래도 내가 본 한에서 정리해본다.
@@ -36,8 +36,8 @@ graph LR
 
 
 
-![a mouse, keyboard, and cell phone sitting on a desk](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/gpt-claude-gemini-모델-비교-ae78cc-1.jpg)
-*[Photo by Jakub Żerdzicki on Unsplash](https://unsplash.com/@jakubzerdzicki?utm_source=blogmaker&utm_medium=referral)*
+![a keyboard, mouse, and iphone on a wooden table](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/gpt-claude-gemini-모델-비교-ae78cc-1.jpg)
+*[Photo by Ionela Mat on Unsplash](https://unsplash.com/@ionelaaaaa?utm_source=blogmaker&utm_medium=referral)*
 
 
 
@@ -47,8 +47,8 @@ graph LR
 
 
 
-![Laptop screen displaying lines of code](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/gpt-claude-gemini-모델-비교-ae78cc-2.jpg)
-*[Photo by Ilnur on Unsplash](https://unsplash.com/@mrw0rld?utm_source=blogmaker&utm_medium=referral)*
+![turned on MacBook Air on desk](https://haangman.github.io/J-Blog-AI/assets/img/2026/05/gpt-claude-gemini-모델-비교-ae78cc-2.jpg)
+*[Photo by Goran Ivos on Unsplash](https://unsplash.com/@goran_ivos?utm_source=blogmaker&utm_medium=referral)*
 
 
 
